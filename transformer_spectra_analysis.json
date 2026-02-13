@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-02-13T19:10:02.090849",
+  "total_models": 11,
+  "verdict_distribution": {
+    "Poisson": 3,
+    "GOE": 8
+  },
+  "ks_statistics": {
+    "goe_mean": 0.12113527834355331,
+    "goe_std": 0.11098282936692244,
+    "poisson_mean": 0.19349561242691252,
+    "poisson_std": 0.04109691004418908
+  },
+  "detailed_results": {
+    "Qwen2.5-0.5B": {
+      "verdict": "Poisson",
+      "ks_goe": 0.22834261821184543,
+      "ks_poisson": 0.12210590095189267
+    },
+    "Qwen2.5-1.5B": {
+      "verdict": "GOE",
+      "ks_goe": 0.06006191151865414,
+      "ks_poisson": 0.20398123344678556
+    },
+    "Qwen2.5-3B": {
+      "verdict": "GOE",
+      "ks_goe": 0.047608668214819405,
+      "ks_poisson": 0.24094174149331082
+    },
+    "gpt2": {
+      "verdict": "GOE",
+      "ks_goe": 0.07645174894440038,
+      "ks_poisson": 0.20693603325425908
+    },
+    "gpt2-medium": {
+      "verdict": "Poisson",
+      "ks_goe": 0.3082948217446777,
+      "ks_poisson": 0.12025406100284097
+    },
+    "gpt2-large": {
+      "verdict": "GOE",
+      "ks_goe": 0.06408238812778777,
+      "ks_poisson": 0.19801240824581534
+    },
+    "TinyLlama-1.1B-Chat-v1.0": {
+      "verdict": "Poisson",
+      "ks_goe": 0.3522963054786773,
+      "ks_poisson": 0.14717955666886284
+    },
+    "OLMo-1B-hf": {
+      "verdict": "GOE",
+      "ks_goe": 0.059284640831893776,
+      "ks_poisson": 0.2251142986704794
+    },
+    "pythia-410m": {
+      "verdict": "GOE",
+      "ks_goe": 0.039408075005820636,
+      "ks_poisson": 0.21558767490172653
+    },
+    "pythia-1b": {
+      "verdict": "GOE",
+      "ks_goe": 0.052645099296998454,
+      "ks_poisson": 0.2196511807066671
+    },
+    "bloom-560m": {
+      "verdict": "GOE",
+      "ks_goe": 0.04401178440351161,
+      "ks_poisson": 0.22868764735339733
+    }
+  }
+}
