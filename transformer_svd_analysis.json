@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-02-13T20:28:28.636739",
+  "total_models": 11,
+  "statistics": {
+    "eff_rank_mean": 151.4335479736328,
+    "eff_rank_std": 53.65745544433594,
+    "max_ratio_mean": 12.969246864318848,
+    "max_ratio_std": 14.41832447052002,
+    "ks_random_mean": 0.9105113636363636,
+    "ks_random_std": 0.07747339315168757
+  },
+  "detailed_results": {
+    "Qwen2.5-0.5B": {
+      "eff_rank": 69.24535369873047,
+      "max_ratio": 42.457157135009766,
+      "ks_random": 0.89453125
+    },
+    "Qwen2.5-1.5B": {
+      "eff_rank": 171.4438934326172,
+      "max_ratio": 8.825778007507324,
+      "ks_random": 0.90625
+    },
+    "Qwen2.5-3B": {
+      "eff_rank": 199.01918029785156,
+      "max_ratio": 3.677480936050415,
+      "ks_random": 0.953125
+    },
+    "gpt2": {
+      "eff_rank": 156.76271057128906,
+      "max_ratio": 4.353973388671875,
+      "ks_random": 0.765625
+    },
+    "gpt2-medium": {
+      "eff_rank": 96.6021957397461,
+      "max_ratio": 12.022454261779785,
+      "ks_random": 0.7578125
+    },
+    "gpt2-large": {
+      "eff_rank": 188.79505920410156,
+      "max_ratio": 3.042391300201416,
+      "ks_random": 0.8828125
+    },
+    "TinyLlama-1.1B-Chat-v1.0": {
+      "eff_rank": 38.411006927490234,
+      "max_ratio": 43.25211715698242,
+      "ks_random": 0.96484375
+    },
+    "OLMo-1B-hf": {
+      "eff_rank": 175.72555541992188,
+      "max_ratio": 5.564383506774902,
+      "ks_random": 0.98046875
+    },
+    "pythia-410m": {
+      "eff_rank": 189.59588623046875,
+      "max_ratio": 4.7660322189331055,
+      "ks_random": 0.95703125
+    },
+    "pythia-1b": {
+      "eff_rank": 187.67587280273438,
+      "max_ratio": 11.693659782409668,
+      "ks_random": 0.984375
+    },
+    "bloom-560m": {
+      "eff_rank": 192.4922637939453,
+      "max_ratio": 3.006279468536377,
+      "ks_random": 0.96875
+    }
+  }
+}
