@@ -136,25 +136,21 @@ python svd_random_baseline.py
 
 All scripts save figures in the 论文图片/ directory.
 
-## 📦 Model Weights
+### Download Links
 
-Due to file size (~1 GB each), model checkpoints are hosted on Google Drive. Please ensure you have sufficient storage before downloading.
+**Prime Models (Standard Transformer)**  
+- Plan A.pt (Learnable + Large Batch): [Download](https://drive.google.com/file/d/173NjtTL1M71oDjaxwYrt0xgAyhKi6sVu/view?usp=drive_link)  
+- Plan B.pt (Learnable + Small Batch): [Download](https://drive.google.com/file/d/1FSXscn4fEi9DYSYM0lN-zwU7QvKdlBmn/view?usp=drive_link)  
+- Plan C.pt (Sinusoidal + Large Batch): [Download](https://drive.google.com/file/d/1KSRG4cpMFqXDwddZu0FxqipkSB7aIGc1/view?usp=drive_link)  
 
-**Prime Models:**
+**Chaotic Models (Standard Transformer)**  
+- chaotic_success.pt (Plan A configuration): [Download](https://drive.google.com/file/d/1kGnxGi0tbhagNBVgJpMzHnmnRvespuyD/view?usp=sharing)  
+- chaotic_fail.pt (Plan C configuration): [Download](https://drive.google.com/file/d/1Pmn_6lBvPGaAbqRAvrRFHQ31B0_jrbKo/view?usp=sharing)  
 
-- Plan A.pt (Learnable + Large Batch): Download  
-- Plan B.pt (Learnable + Small Batch): Download  
-- Plan C.pt (Sinusoidal + Large Batch): Download  
+**IHC Models (Identity Hyper-Connection)**  
+- IHC_prime.pt (trained on prime gaps): [Download](https://drive.google.com/file/d/1Hza4fbx6GPgS9YTMAqLyoZmsB0hhHEbz/view?usp=sharing)  
+- IHC_chaos.pt (trained on chaotic map): [Download](https://drive.google.com/file/d/17aeTp6qeqF34z121iUjiRw43n6uN-kx0/view?usp=sharing)  
 
-**Chaotic Models:**
-
-- Chaotic success model (Plan A): Download  
-- Chaotic fail model (Plan C): Download  
-
-**IHC Models**  
-- IHC Prime (trained on prime gaps): Download  
-- IHC Chaos (trained on chaotic map): Download
-- 
 ## 🔬 Reproducibility
 
 All experiments were performed on a Kaggle P100 GPU (16GB VRAM). Training logs include hyperparameter histories; random seeds are fixed in analysis scripts for reproducibility.
