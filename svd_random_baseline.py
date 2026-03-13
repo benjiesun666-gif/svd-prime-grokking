@@ -1,5 +1,4 @@
 """
-svd_random_baseline_standard.py
 随机初始化基线实验（标准 Transformer）
 - 创建与主实验相同架构的 Transformer 模型（未训练）
 - 提取注意力权重矩阵，进行 SVD 分析
@@ -162,3 +161,4 @@ if __name__ == "__main__":
     for i, (e, m, k) in enumerate(zip(eff_ranks, max_ratios, ks_vals), 1):
         print(f"| Random {i} | {e:.2f} | {m:.2f} | {k:.4f} |")
     print(f"| Mean ± std | {mean_eff:.2f} ± {std_eff:.2f} | {mean_max:.2f} ± {std_max:.2f} | {mean_ks:.4f} ± {std_ks:.4f} |")
+
