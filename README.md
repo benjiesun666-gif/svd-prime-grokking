@@ -3,15 +3,12 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18639667.svg)](https://doi.org/10.5281/zenodo.18639667)
 
 ## ⚠️ Important Update (March 2026)
-
-This repository contains the **final refined analysis** for the manuscript under review at *npj Artificial Intelligence*.  
+  
 Key updates:
 
 - **SVD analysis** remains the core method (effective rank, max/mean ratio, KS distance to random baseline).
 - **New symmetry analysis**: successful prime‑gap models (Plans A and B) develop a striking **symmetric double‑peak structure** in the row vectors of the first‑layer attention weights. This feature is quantified by inter‑cluster distance (13.66–19.74) and symmetry quality (18–21), and is **completely absent** in the failed model (Plan C) and in a **controlled chaotic logistic map**.
 - **Chaotic logistic map** serves as a counterexample: it learns perfectly (MAE = 0.028) but retains a high‑rank, non‑symmetric weight structure, demonstrating that learning fingerprints are data‑specific.
-
-Previous versions (GOE analysis, GUE analysis) are archived in branches and Zenodo.
 
 ## 📄 Paper
 
